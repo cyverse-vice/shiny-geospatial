@@ -5,7 +5,7 @@ Shiny with geospatial dependencies, based on [Rocker Shiny Docker container](htt
 
 DockerHub        | description                               | size   | metrics | build status 
 ---------------- | ----------------------------------------- | ------ | ------- | --------------
-[![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/shiny-geospatial) | RStudio w/ geospatial depends | [![](https://images.microbadger.com/badges/image/cyversevice/shiny-geospatial.svg)](https://microbadger.com/images/cyversevice/shiny-geospatial) | [![](https://img.shields.io/docker/pulls/cyversevice/shiny-geospatial.svg)](https://hub.docker.com/r/tswetnam/shiny-geospatial)  |  [![](https://img.shields.io/docker/automated/cyversevice/shiny-geospatial.svg)](https://hub.docker.com/r/cyversevice/shiny-geospatial/builds)
+[![DockerHub](https://img.shields.io/badge/DockerHub-brightgreen.svg?style=popout&logo=Docker)](https://hub.docker.com/r/cyversevice/shiny-geospatial) | RStudio w/ geospatial depends | [![](https://images.microbadger.com/badges/image/cyversevice/shiny-geospatial.svg)](https://microbadger.com/images/cyversevice/shiny-geospatial) | [![](https://img.shields.io/docker/pulls/cyversevice/shiny-geospatial.svg)](https://hub.docker.com/r/cyversevice/shiny-geospatial)  |  [![](https://img.shields.io/docker/automated/cyversevice/shiny-geospatial.svg)](https://hub.docker.com/r/cyversevice/shiny-geospatial/builds)
 
 VICE containers  | tag version                               | size   | metrics | build status 
 ---------------- | ----------------------------------------- | ------ | ------- | --------------

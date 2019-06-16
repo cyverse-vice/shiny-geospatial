@@ -36,3 +36,13 @@ To test the container locally:
 ```
 docker run -it --rm -p 3838:3838 -e REDIRECT_URL=http://localhost:3838 cyversevice/shiny-geospatial:latest
 ```
+
+To build your own container with a Dockerfile and additional dependencies, pull the pre-built image from DockerHub:
+
+```
+FROM cyversevice/shiny-geospatial:latest
+```
+
+Shiny requires an application to be added to the tool before it is run. You can add your shiny app installation when the container is built, 
+
+Follow the instructions in the [VICE manual for integrating your own tools and apps](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/developer_guide/building.html).

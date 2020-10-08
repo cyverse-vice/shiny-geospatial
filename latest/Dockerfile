@@ -5,7 +5,7 @@ RUN chmod -R a+rwx /usr/local/lib/R/site-library
 
 # Install Linux dependencies for geospatial R packages
 RUN apt-get update && apt-get install -y curl git libboost-all-dev \
-    libgdal-dev libgdal20 libgit2-dev libproj-dev libssl-dev  \
+    libgdal-dev libgit2-dev libproj-dev libssl-dev  \
     libudunits2-0 libudunits2-dev
     
 # Install R Packages w/ Dependencies    
